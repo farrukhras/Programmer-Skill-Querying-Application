@@ -17,11 +17,12 @@ On the front-end, React.js is used to implement the user interface and the requi
 ## Setup and Installation
 
 1. Clone the repository.
-2. Install the necessary dependencies using the package manager of your choice.
+2. Install the required dependencies using the following commands in the respective folders:
+   - `npm install` in the `client` folder
 3. Set up the environment variables required for the project.
 4. Replace `your_mongodb_connection_string` in the `server/main.go` file with your MongoDB connection string.
-5. Run the Golang server.
-6. Run the React development server.
+5. Run the Golang server using the `go run main.go` command in the `server` folder.
+6. Run the React development server using the `npm start` command in the `client` folder.
 7. Access the application through the provided URL.
 
 ## Contact
